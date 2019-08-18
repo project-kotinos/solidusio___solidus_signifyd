@@ -17,4 +17,4 @@ gem install bundler -v 2.0.1
 # install
 bundle install --jobs=3 --retry=3
 # script
-rake
+bundle exec rake

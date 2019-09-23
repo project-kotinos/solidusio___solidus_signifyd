@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'rspec'
 gem 'selenium-webdriver'
 branch = ENV.fetch('SOLIDUS_BRANCH', 'master')
 gem "solidus", github: "solidusio/solidus", branch: branch

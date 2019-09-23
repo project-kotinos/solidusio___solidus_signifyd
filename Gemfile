@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem 'selenium-webdriver'
 branch = ENV.fetch('SOLIDUS_BRANCH', 'master')
 gem "solidus", github: "solidusio/solidus", branch: branch
-
+gem 'yourbase-rspec-skipper'
 if branch != 'master' && branch < "v2.0"
   gem "rails_test_params_backport", group: :test
 end
